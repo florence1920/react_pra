@@ -1,7 +1,9 @@
-import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 const App = () =>{
-  return <MyComponent>하이</MyComponent>;
+  return (
+    <Counter/>
+  )
 };
 
 export default App;
